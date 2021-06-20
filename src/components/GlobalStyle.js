@@ -17,6 +17,17 @@ const GlobalStyle = createGlobalStyle`
         font-weight: 800;
     }
 
+    h2 {
+        font-size: 4rem;
+        font-family: Fraunces;
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        word-spacing: 1rem;
+        @media (max-width: 768px) {
+            font-size: 3.5rem;
+        }
+    }
+
     nav {
 
     }
