@@ -42,6 +42,19 @@ const GlobalStyle = createGlobalStyle`
         font-weight: 800;
     }
 
+    h5 {
+        font-family: Fraunces;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: hsl(212, 27%, 19%);
+    }
+
+    span {
+        color: hsl(210, 4%, 67%);
+        margin-top: 1rem;
+        font-size: .9rem;
+    }
+
     p {
         color: hsl(232, 10%, 55%);
         font-weight: 700;
