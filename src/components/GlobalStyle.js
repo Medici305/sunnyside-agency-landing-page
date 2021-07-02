@@ -28,6 +28,26 @@ const GlobalStyle = createGlobalStyle`
         }
     }
 
+    h3 {
+        color: hsl(212, 27%, 19%);
+        font-family: Fraunces;
+        font-size: 2.5rem;
+        font-weight: 800;
+
+    }
+
+    h4 {
+        font-family: Fraunces;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    p {
+        color: hsl(232, 10%, 55%);
+        font-weight: 700;
+        line-height: 2rem;
+    }
+
     nav {
 
     }
@@ -38,7 +58,10 @@ const GlobalStyle = createGlobalStyle`
 
     a {
         text-decoration: none;
-        font-weight: 600;
+        color: hsl(212, 27%, 19%);
+        font-weight: 800;
+        text-transform: uppercase;
+        font-family: Fraunces;
     }
 
     button {
