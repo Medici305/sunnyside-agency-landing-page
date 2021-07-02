@@ -6,7 +6,7 @@ import Thomas from "../images/image-thomas.jpg";
 
 const Testimonials = () => {
   return (
-    <div>
+    <>
       <Row>
         <Title>
           <h4>Client Testimonials</h4>
@@ -41,7 +41,7 @@ const Testimonials = () => {
           </Box>
         </Col>
       </Row>
-    </div>
+    </>
   );
 };
 
@@ -102,6 +102,9 @@ const Box = styled.div`
   }
   @media (max-width: 992px) {
     padding: 2rem 7rem;
+  }
+  @media (max-width: 578px) {
+    padding: 2rem 5rem;
   }
 `;
 
